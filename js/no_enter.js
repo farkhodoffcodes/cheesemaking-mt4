@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// btn esho more starrt ////////////////////////////////////////////////
+>>>>>>> c45e58e22342493430725d8381aa5396b072fe47
 let ckickMe = document.querySelector('.ckickMe');
 let retsept = document.querySelector('.retsept__container');
 let tavsiv = document.querySelector('.sir__tavsiv');
@@ -7,4 +11,39 @@ ckickMe.addEventListener('click', () => {
     retsept.classList.toggle('d-block')
     popular.classList.toggle('d-none')
     tavsiv.classList.toggle('d-none')
+<<<<<<< HEAD
 })
+=======
+})
+// btn esho more finish///////////////////////////////////////////////////////
+
+// CLOSE modalll starrt ///////////////////////////////////////////////////////
+let btnModal = document.querySelectorAll('.retsept__korzinka button')
+let modal = document.querySelector('.modal__container')
+let clos = document.querySelector('.modal__title')
+let body = document.querySelector('body')
+
+btnModal.forEach(element => {
+    modalMenu(element, modal)
+});
+
+modalMenu(clos, modal)
+
+function modalMenu(btn, togl) {
+    btn.addEventListener('click', () => {
+        togl.classList.toggle('d-none')
+        body.classList.toggle('fixed')
+    })
+}
+
+modal.addEventListener('click', (e) => {
+    if (e.target == modal) {
+        modal.classList.toggle('d-none')
+        body.classList.toggle('fixed')
+    }
+})
+
+
+
+// CLOSE modalll finish //////////////////////////////////////////////
+>>>>>>> c45e58e22342493430725d8381aa5396b072fe47

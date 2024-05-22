@@ -5,14 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 html{
   scroll-behavior: smooth;
 }
@@ -31,6 +23,19 @@ body{
   background-color: #FD9339;
   border-radius: 6px;
   cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFBED;
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 1337px;
+  margin: 0 auto;
 }
 
 h1,
@@ -62,4 +67,28 @@ img{
 
 .d-none{
   display: none !important;
+}
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.fixed {
+  position: fixed;
 }
