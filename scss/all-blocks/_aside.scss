@@ -1,0 +1,62 @@
+.aside {
+    max-width: $max_width;
+    display: $d-flex;
+    background: #FFFBED;
+    align-items: center;
+
+    .aside_container {
+        display: $d-flex;
+        width: $max_width;
+        justify-content: $space-between;
+
+        .aside_ul_list {
+            max-width: 500px;
+            gap: 15px;
+            display: $d-flex;
+            justify-content: space-between;
+
+            .list_item {
+                button {
+                    display: $d-flex;
+                    max-width: 15rem;
+                    height: 2rem;
+                    justify-content: center;
+                    align-items: center;
+                    background: transparent;
+                    border: none;
+                    cursor: pointer;
+                    font-family: $sans-serif;
+
+                    span {
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+
+        .aside_ol_list {
+            display: $d-flex;
+            width: $max_width - 1050;
+            justify-content: $space-around;
+            align-items: center;
+            font-family: $sans-serif;
+
+
+            .list_item {
+                cursor: pointer;
+
+                button {
+                    display: $d-flex;
+                    align-items: center;
+                    background: transparent;
+                    border: none;
+                    cursor: pointer;
+
+                    span {
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
