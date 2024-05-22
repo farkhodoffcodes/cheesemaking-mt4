@@ -1,0 +1,15 @@
+.card_btn {
+    width: 132px;
+    height: 44px;
+    border-radius: 5px;
+    background: #FD9339;
+    color: white;
+    font-family: $Circle_Rounded,sans-serif;
+    border: none;
+    &:hover{
+        background: #ff7700;
+    }
+}
+button{
+    cursor: pointer;
+}

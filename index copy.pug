@@ -1,0 +1,52 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- Js
+        script(defer, src="./js/index.js")
+        //- CSS link
+        link(rel="stylesheet", href="./css/main.css")
+        title Document
+    body 
+        //- Aside Start
+        include  ./components/aside.pug
+        //- Aside End
+
+        //- Header Start
+        include ./components/header.pug
+        //- Header End
+
+        //- Main Start
+        main.main
+            //- Hero 
+            include ./components/hero.pug
+             
+            //- Second
+            include ./components/second.pug
+
+            //- About
+            include ./components/about.pug
+
+            //- Prosmotr
+            include ./components/prosmotr.pug
+        //- Main End
+
+        //- Footer Start
+        include ./components/footer.pug
+        //- Footer End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

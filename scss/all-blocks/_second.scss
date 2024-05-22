@@ -1,0 +1,38 @@
+.second{
+    margin-top: 43rem;
+    max-width: $max_width;
+    height: $second_height;
+    background: linear-gradient(to right, #FEE9A5, #fff1c3, #FEE9A5);
+
+    .second_container{
+        display: $d-flex;
+
+        .second_title{
+            padding-top: $padding_y + 50;
+            max-width: 600px;
+            h2{
+                width: 300px;
+                font-size: $h2_lg_size;
+                font-family: $Roboto;
+                padding-bottom: $padding_y;
+                text-transform: uppercase;
+            }
+            p{
+                font-family: $Roboto;
+            }
+        }
+
+        .second_img{
+            position: relative;
+            .img_1{
+                max-width: 960px;
+                height: $second_height;
+            }
+            .img_2{
+                position: absolute;
+                left: -25%;
+                top: 15%;
+            }
+        }
+    }
+}

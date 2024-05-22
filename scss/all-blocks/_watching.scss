@@ -1,0 +1,121 @@
+.prosmotr {
+    .prosmotr_container {
+        .chevrons {
+            max-width: $max_width;
+            display: $d-flex;
+            justify-content: end;
+            gap: 35px;
+            padding-bottom: 1rem;
+
+            img {
+                cursor: pointer;
+            }
+        }
+
+        .products_title {
+            padding-bottom: $padding_y + 15;
+
+            h2 {
+                font-size: 22px;
+                font-family: $Roboto;
+            }
+        }
+        .prosmotr_cardes {
+            scroll-behavior: smooth !important;
+            overflow: hidden;
+
+            .products_card_box {
+                max-width: $product_card_box_max_width;
+                height: $product_card_box_height;
+
+                .first_box_card {
+
+
+                    .product_cards {
+                        margin-bottom: 1rem;
+                        max-width: $product_card_box_max_width;
+                        display: $d-flex;
+                        gap: 10px;
+
+                        .product_card {
+                            text-align: center;
+                            width: $card_max_width;
+                            height: $card_height;
+                            background: $light_color;
+                            border: 1px solid #E7E7E7;
+                            border-radius: 5px;
+
+                            .checkes {
+                                display: flex;
+                                justify-content: $center;
+                                gap: 10px;
+                                padding-bottom: $padding_y;
+
+                                img {
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .name {
+                                display: $d-flex;
+                                justify-content: $center;
+                                padding-bottom: 1rem;
+                                margin-left: .5rem;
+                                max-width: 200px;
+                                font-family: $Roboto;
+                                border-bottom: 1px solid #E6E6E6;
+
+                                p {
+                                    font-size: 16px;
+                                    text-align: left;
+                                }
+                            }
+
+                            .summa_and_btn {
+                                text-align: left;
+                                padding: 0 1rem;
+                                padding-top: 1rem;
+                                display: $d-flex;
+                                justify-content: $space-between;
+
+
+                                .summa {
+                                    p {
+                                        padding-bottom: .5rem;
+                                        font-family: $Roboto;
+
+                                        span {
+                                            font-size: 12px;
+                                        }
+                                    }
+
+                                    del {
+                                        color: $red;
+                                    }
+                                }
+
+                                .btn {
+                                    button {
+                                        padding: $btn_p_y;
+                                        max-width: 90px;
+                                        font-family: $Roboto;
+                                        height: 38px;
+                                        background: #ff9f4a;
+                                        color: $light_color;
+                                        border: none;
+                                        border-radius: 5px;
+
+                                        &:hover {
+                                            background-color: #fc9032;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

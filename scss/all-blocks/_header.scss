@@ -1,3 +1,269 @@
 .header {
-    background-color: red;
+    max-width: $max_width;
+    background: #FFFBED;
+    .header_container {
+        max-width: $max_width - 340;
+        display: $d-flex;
+        justify-content: $space-between;
+
+        .header_ol_list {
+            width: 450px;
+            display: $d-flex;
+            justify-content: $space-around;
+            padding: 0 1rem;
+            border-right: 1px solid #F4F0E6;
+            align-items: center;
+
+            .list_item{
+                cursor: pointer;
+            }
+        }
+
+        .header_ul_list {
+            display: $d-flex;
+            gap: 15px;
+            justify-content: $space-around;
+            align-items: center;
+            border-right: 1px solid #F4F0E6;
+            padding-right: 1rem;
+
+            .list_item {
+                cursor: pointer;
+                span {
+                    font-size: 16px;
+                    letter-spacing: .5px;
+                    font-weight: 700;
+                    font-family: $sans-serif;
+                }
+
+                button {
+                    width: $header_button_width;
+                    height: $header_button_height;
+                    border: 1px solid #FD9339;
+                    border-radius: 4px;
+                    background: transparent;
+                    font-family: $sans-serif;
+                    color: #FD9339;
+                    display: $d-flex;
+                    align-items: center;
+
+                    &:hover{
+                        background: #FD9339;
+                        color: $light_color;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        padding: 0 .3rem;
+                    }
+                }
+            }
+        }
+
+        .header_right {
+            display: $d-flex;
+            gap: 10px;
+
+            .right_text {
+                font-family: $sans-serif;
+
+                .right_sum_text {
+                    text-align: right;
+                    padding-left: 2rem;
+                }
+            }
+
+            .header_right_btn {
+                background: transparent;
+                border: none;
+                padding-left: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .korzina{
+        width: $korzina_max_width;
+        height: 570px;
+        position: absolute;
+        right: 3rem ;
+        background: $light_color;
+        border-radius: 5px;
+        box-shadow: 0px 2px 18px 0px #664F001A;
+        display: none;
+
+        .icon{
+            .bi{
+                position: absolute;
+                top: -4%;
+                right: 8%;
+                color: $light_color;
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        .title{
+            max-width: $korzina_max_width;
+            padding: 1.5rem;
+            border-bottom: 1px solid #E7E7E7;
+            h2{
+                font-size: 22px;
+                font-family: $Circle_Rounded, sans-serif;
+                text-transform: uppercase;
+            }
+        }
+        
+        .boughted_box{
+            padding: 1.5rem;
+            .top{
+                display: $d-flex;
+                .icon_close{
+                    cursor: pointer;
+                }
+            }
+            .product{
+                margin-bottom: 1rem;
+                display: $d-flex;
+                padding-bottom: .3rem;
+                border-bottom: 1px solid #E7E7E7;
+                .product_img{
+                    padding-right: 1rem;
+                    img{
+                        width: 120px;
+                        height: 120px;
+                        border: 1px solid #E7E7E7;
+                        border-radius: 5px;
+                    }
+                }
+                .product_name{
+                    font-family: $Circle_Rounded, sans-serif;
+                    .product_bottom{
+                        display: $d-flex;
+                        align-items: center;
+                        justify-content: $space-between;
+                    }
+                    .product_btns{
+                        display: flex;
+                        max-width: calc(36px * 3);
+                        border: 1px solid #E7E7E7;
+                        border-radius: 5px;
+                        margin-top: 2.6rem;
+                        button{
+                            width: 36px;
+                            height: 36px;
+                            font-family: $Roboto, $sans-serif;
+                            background: transparent;
+                            border: 1px solid #E7E7E7;
+                            &:hover{
+                                background: #E7E7E7;
+                            }
+                            &:nth-child(2):hover{
+                                background: transparent;
+                            }
+                        }
+                    }
+
+                    .product_summ{
+                        margin-top: 2.5rem;
+                    }
+                }
+            }
+        }
+
+        .korzina_list{
+            padding: 0  $padding_x - 40;
+            .list{
+                .list_item{
+                    h2{
+                        display: $d-flex;
+                        justify-content: $space-between;
+                        font-family: $Roboto,sans-serif;
+                        line-height: 45px;
+                    }
+                }
+            }
+
+            .bottom_btn{
+                display: flex;
+                justify-content: center;
+                button{
+                    padding: 1rem 3rem;
+                    width: 420px;
+                    
+                }
+            }
+        }
+    }
+
+    .navbar {
+        max-width: 1300px;
+        display: $d-flex;
+        justify-content: $space-between;
+        .nav_list {
+            display: $d-flex;
+            max-width: 1600px;
+            font-family: $sans-serif;
+            justify-content: $space-between;
+            gap: 11px;
+            padding: $padding_y;
+            padding-right: $padding_y + 100;
+            border-right: 1px solid #e0ddd3;
+
+            .list_item{
+                cursor: pointer;
+            }
+        }
+
+        .nav_input_search{
+            display: $d-flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 1rem;
+            input{
+                max-width: 675px;
+                height: 22px;
+                margin-left: 1rem;
+                outline: none;
+                background: transparent;
+                border: none;
+                &::placeholder{
+                    font-family: $sans-serif;
+                }
+            }
+            button{
+                background: transparent;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .dropdown{
+        position: absolute;
+        width: $dropdown_max_width;
+        height: $dorpdown_height;
+        left: 2.5%;
+        background: $light_color;
+        box-shadow: 0px 2px 18px 0px #664F001A;
+        display: none;
+
+        .dropdown_list{
+            .list_item{
+                max-width: $dropdown_max_width;
+                height: 44px;
+                padding: .65rem;
+                font-family: $Circle_Rounded, $sans-serif;
+                font-weight: 500;
+                cursor: pointer;
+                transition: .5s;
+                
+                &:hover{
+                    background: #fd943934;
+                    color: #FD9339;
+                }
+            }
+        }
+    }
+
 }

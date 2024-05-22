@@ -5,3 +5,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #FFFBED;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  background-color: #FBE8BB;
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FD9339;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ol,ul{
+  list-style: none;
+}
+
+img{
+  object-fit: cover;
+}
+
+.d-block{
+  display: block !important;
+}
+
+.d-none{
+  display: none !important;
+}
