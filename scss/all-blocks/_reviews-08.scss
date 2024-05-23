@@ -6,18 +6,53 @@
         color: $text-color;
     }
 }
-.items-flex{
+.items-grid{
     display: grid;
     grid-template-columns: auto auto;
+    gap: 100px;
     .content__item{
         display: grid;
         grid-template-columns: auto auto;
         .content__item-items{
         display: grid;
         grid-template-columns: auto auto auto;
-        .paragraf{
-            color: $text-color;
+            .paragraf{
+                color: $text-color;
+            }   
         }
+    }
+
+    .content__cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        row-gap: 20px;
+        padding-top: 30px;
+        .content__card{
+            width: 365px;
+            background: #fff;
+            padding: 10px;
+            .content__card-first{
+                .content__card-first-item1{
+                    margin: 0;
+                    color: #4E2D2D;
+                }
+                .content__card-first-item2{
+                    margin: 0;
+                    color: #808080;
+                }
+            }
+            .content__card-second {
+                color: #292929;
+                line-height: 1.7;
+            }
+            .content__card-third{
+                display: flex;
+                gap: 10px;
+            }
+            .content__card-fourth {
+                color: #808080;
+            }
         }
     }
 }

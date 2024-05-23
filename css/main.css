@@ -1401,20 +1401,52 @@ button {
   color: #FD9339;
 }
 
-.items-flex {
+.items-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+}
+.items-grid .content__item {
   display: grid;
   grid-template-columns: auto auto;
 }
-.items-flex .content__item {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.items-flex .content__item .content__item-items {
+.items-grid .content__item .content__item-items {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.items-flex .content__item .content__item-items .paragraf {
+.items-grid .content__item .content__item-items .paragraf {
   color: #FD9339;
+}
+.items-grid .content__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  padding-top: 30px;
+}
+.items-grid .content__cards .content__card {
+  width: 365px;
+  background: #fff;
+  padding: 10px;
+}
+.items-grid .content__cards .content__card .content__card-first .content__card-first-item1 {
+  margin: 0;
+  color: #4E2D2D;
+}
+.items-grid .content__cards .content__card .content__card-first .content__card-first-item2 {
+  margin: 0;
+  color: #808080;
+}
+.items-grid .content__cards .content__card .content__card-second {
+  color: #292929;
+  line-height: 1.7;
+}
+.items-grid .content__cards .content__card .content__card-third {
+  display: flex;
+  gap: 10px;
+}
+.items-grid .content__cards .content__card .content__card-fourth {
+  color: #808080;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -3225,20 +3257,52 @@ button {
   color: #FD9339;
 }
 
-.items-flex {
+.items-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+}
+.items-grid .content__item {
   display: grid;
   grid-template-columns: auto auto;
 }
-.items-flex .content__item {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.items-flex .content__item .content__item-items {
+.items-grid .content__item .content__item-items {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.items-flex .content__item .content__item-items .paragraf {
+.items-grid .content__item .content__item-items .paragraf {
   color: #FD9339;
+}
+.items-grid .content__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  padding-top: 30px;
+}
+.items-grid .content__cards .content__card {
+  width: 365px;
+  background: #fff;
+  padding: 10px;
+}
+.items-grid .content__cards .content__card .content__card-first .content__card-first-item1 {
+  margin: 0;
+  color: #4E2D2D;
+}
+.items-grid .content__cards .content__card .content__card-first .content__card-first-item2 {
+  margin: 0;
+  color: #808080;
+}
+.items-grid .content__cards .content__card .content__card-second {
+  color: #292929;
+  line-height: 1.7;
+}
+.items-grid .content__cards .content__card .content__card-third {
+  display: flex;
+  gap: 10px;
+}
+.items-grid .content__cards .content__card .content__card-fourth {
+  color: #808080;
 }
 
 /*# sourceMappingURL=main.css.map */
