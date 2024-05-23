@@ -15,7 +15,6 @@
 }
 
 .container {
-  max-width: 1680px;
   padding: 10px 70px;
 }
 
@@ -1391,6 +1390,31 @@ button {
 }
 .aside .aside_container .aside_ol_list .list_item button span {
   padding: 0 10px;
+}
+
+.element {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.element .element__p {
+  color: #FD9339;
+}
+
+.items-flex {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.items-flex .content__item {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.items-flex .content__item .content__item-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.items-flex .content__item .content__item-items .paragraf {
+  color: #FD9339;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1815,7 +1839,6 @@ img {
 }
 
 .container {
-  max-width: 1680px;
   padding: 10px 70px;
 }
 
@@ -3192,3 +3215,30 @@ button {
 .aside .aside_container .aside_ol_list .list_item button span {
   padding: 0 10px;
 }
+
+.element {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.element .element__p {
+  color: #FD9339;
+}
+
+.items-flex {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.items-flex .content__item {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.items-flex .content__item .content__item-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.items-flex .content__item .content__item-items .paragraf {
+  color: #FD9339;
+}
+
+/*# sourceMappingURL=main.css.map */

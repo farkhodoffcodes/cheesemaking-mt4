@@ -1,0 +1,23 @@
+.element {
+    display: $d-flex;
+    padding-bottom: 20px;
+    gap: 20px;
+    .element__p{
+        color: $text-color;
+    }
+}
+.items-flex{
+    display: grid;
+    grid-template-columns: auto auto;
+    .content__item{
+        display: grid;
+        grid-template-columns: auto auto;
+        .content__item-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        .paragraf{
+            color: $text-color;
+        }
+        }
+    }
+}
