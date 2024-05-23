@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title Document
+    body 
+        //- Aside Start 
+        include ./components/aside.pug
+        //- Aside Start 
+
+        //- HEADER START
+        include ./components/header.pug
+        //- HEADER END
+
+        //- main start
+        main 
+            div.container
+                div.element 
+                    p Главная
+                    img(src="../assets/logos/dropright.svg", alt="")
+                    p Отзывы наших покупателей
+        //- main end 
