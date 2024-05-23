@@ -30,21 +30,24 @@
         padding-top: 30px;
         .content__card{
             width: 365px;
-            background: #fff;
-            padding: 10px;
+            background: $light_color;
+            padding: 15px;
             .content__card-first{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 15px;
                 .content__card-first-item1{
-                    margin: 0;
                     color: #4E2D2D;
                 }
                 .content__card-first-item2{
-                    margin: 0;
                     color: #808080;
                 }
             }
             .content__card-second {
                 color: #292929;
                 line-height: 1.7;
+                margin-bottom: 15px;
             }
             .content__card-third{
                 display: flex;
@@ -52,6 +55,8 @@
             }
             .content__card-fourth {
                 color: #808080;
+                margin-top: 15px;
+                margin-bottom: 10px;
             }
         }
     }
