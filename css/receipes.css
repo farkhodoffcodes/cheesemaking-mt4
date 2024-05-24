@@ -161,7 +161,8 @@
   height: 100vh;
   top: 0;
   left: 0;
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   z-index: 1111;
 }
 .modal__container .modal__menu {
@@ -202,4 +203,4 @@
   background: rgb(253, 147, 57);
   color: rgb(255, 255, 255);
   margin-top: 5%;
-}
+}/*# sourceMappingURL=receipes.css.map */

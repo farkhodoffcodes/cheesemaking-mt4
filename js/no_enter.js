@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 // btn esho more starrt ////////////////////////////////////////////////
->>>>>>> c45e58e22342493430725d8381aa5396b072fe47
 let ckickMe = document.querySelector('.ckickMe');
 let retsept = document.querySelector('.retsept__container');
 let tavsiv = document.querySelector('.sir__tavsiv');
@@ -11,9 +8,6 @@ ckickMe.addEventListener('click', () => {
     retsept.classList.toggle('d-block')
     popular.classList.toggle('d-none')
     tavsiv.classList.toggle('d-none')
-<<<<<<< HEAD
-})
-=======
 })
 // btn esho more finish///////////////////////////////////////////////////////
 
@@ -43,7 +37,4 @@ modal.addEventListener('click', (e) => {
     }
 })
 
-
-
 // CLOSE modalll finish //////////////////////////////////////////////
->>>>>>> c45e58e22342493430725d8381aa5396b072fe47
