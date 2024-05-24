@@ -40,7 +40,7 @@ pug -w ./ -o ./html -P
 | 7 | Samira    |  Contact-Us. Questions and answers|
 | 8 | Jasmina   |  Login, Calculator                |
 | 9 | Jasur     |  Card, Profile                    |
-| 9 | Asliddin  |  Collections, Create account      |
+| 10| Asliddin  |  Collections, Create account      |
 
 </div>
 
