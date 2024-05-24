@@ -1462,10 +1462,14 @@ button {
 .elements__element .element__items {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .title .title__heading {
   color: #4E2D2D;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .title .title__content {
   display: flex;
@@ -1473,10 +1477,18 @@ button {
 }
 .title .title__content .title__content-item__p {
   width: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.title .title__content .title__content-item__p .item-p {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .card .card__h3 {
   color: #4E2D2D;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card .card__cards {
   display: grid;
@@ -1487,16 +1499,22 @@ button {
   background: #fff;
   padding: 20px;
 }
+.card .card__cards .card__cards-items p {
+  margin-top: 15px;
+}
 
 .about-img .about-img__flex {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .item-flex {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 60px;
+  margin-bottom: 50px;
 }
 .item-flex .item-flex__paragraf {
   line-height: 1.5;
@@ -3377,10 +3395,14 @@ button {
 .elements__element .element__items {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .title .title__heading {
   color: #4E2D2D;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .title .title__content {
   display: flex;
@@ -3388,10 +3410,18 @@ button {
 }
 .title .title__content .title__content-item__p {
   width: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.title .title__content .title__content-item__p .item-p {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .card .card__h3 {
   color: #4E2D2D;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card .card__cards {
   display: grid;
@@ -3402,16 +3432,22 @@ button {
   background: #fff;
   padding: 20px;
 }
+.card .card__cards .card__cards-items p {
+  margin-top: 15px;
+}
 
 .about-img .about-img__flex {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .item-flex {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 60px;
+  margin-bottom: 50px;
 }
 .item-flex .item-flex__paragraf {
   line-height: 1.5;

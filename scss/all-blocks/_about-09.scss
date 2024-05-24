@@ -5,23 +5,35 @@
     .element__items{
         display: flex;
         justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 .title{
     .title__heading {
         color: #4E2D2D;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .title__content{
         display: flex;
         justify-content: space-between;
         .title__content-item__p {
             width: 260px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            .item-p{
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
         }
     }
 }
 .card{
     .card__h3 {
         color: #4E2D2D;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .card__cards {
         display: grid;
@@ -30,6 +42,9 @@
         .card__cards-items {
             background: #fff;
             padding: 20px;
+            p{
+                margin-top: 15px;
+            }
         }
     }
 }
@@ -37,13 +52,15 @@
     .about-img__flex{
         display: flex;
         justify-content: space-between;
-        // gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 .item-flex{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 60px;
+    margin-bottom: 50px;
     .item-flex__paragraf{
         line-height: 1.5;
     }
