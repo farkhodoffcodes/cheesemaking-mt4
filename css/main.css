@@ -37,6 +37,7 @@ button {
 
 .footer {
   max-width: 1680px;
+  height: -moz-max-content;
   height: max-content;
   background: #fff;
 }
@@ -281,6 +282,9 @@ button {
   outline: none;
   background: transparent;
   border: none;
+}
+.header .navbar .nav_input_search input::-moz-placeholder {
+  font-family: sans-serif;
 }
 .header .navbar .nav_input_search input::placeholder {
   font-family: sans-serif;
@@ -948,7 +952,7 @@ button {
   display: flex;
 }
 .blog__post .hero {
-  width: 20%;
+  margin: 7px;
 }
 .blog__post .hero .hero_container .hero_imgs {
   max-width: 1176px;
@@ -1095,6 +1099,7 @@ button {
 }
 .blog__post .cardspop {
   padding-bottom: 50px;
+  width: -moz-min-content;
   width: min-content;
   margin: 0 auto;
 }
@@ -1297,7 +1302,8 @@ button {
   height: 100vh;
   top: 0;
   left: 0;
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   z-index: 1111;
 }
 .modal__container .modal__menu {
@@ -1611,7 +1617,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -1907,10 +1914,6 @@ ol, ul {
   list-style: none;
 }
 
-img {
-  object-fit: cover;
-}
-
 .d-block {
   display: block !important;
 }
@@ -1926,10 +1929,6 @@ a {
 ol,
 ul {
   list-style: none;
-}
-
-img {
-  object-fit: cover;
 }
 
 .d-block {
@@ -1981,6 +1980,7 @@ button {
 
 .footer {
   max-width: 1680px;
+  height: -moz-max-content;
   height: max-content;
   background: #fff;
 }
@@ -2225,6 +2225,9 @@ button {
   outline: none;
   background: transparent;
   border: none;
+}
+.header .navbar .nav_input_search input::-moz-placeholder {
+  font-family: sans-serif;
 }
 .header .navbar .nav_input_search input::placeholder {
   font-family: sans-serif;
@@ -2892,7 +2895,7 @@ button {
   display: flex;
 }
 .blog__post .hero {
-  width: 20%;
+  margin: 7px;
 }
 .blog__post .hero .hero_container .hero_imgs {
   max-width: 1176px;
@@ -3039,6 +3042,7 @@ button {
 }
 .blog__post .cardspop {
   padding-bottom: 50px;
+  width: -moz-min-content;
   width: min-content;
   margin: 0 auto;
 }
@@ -3241,7 +3245,8 @@ button {
   height: 100vh;
   top: 0;
   left: 0;
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   z-index: 1111;
 }
 .modal__container .modal__menu {
@@ -3479,6 +3484,4 @@ button {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   gap: 10px;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
