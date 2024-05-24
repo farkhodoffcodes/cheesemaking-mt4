@@ -37,7 +37,7 @@ button {
 
 .footer {
   max-width: 1680px;
-  height: 400px;
+  height: max-content;
   background: #fff;
 }
 .footer .footer_container {
@@ -1900,7 +1900,7 @@ button {
 
 .footer {
   max-width: 1680px;
-  height: 400px;
+  height: max-content;
   background: #fff;
 }
 .footer .footer_container {
