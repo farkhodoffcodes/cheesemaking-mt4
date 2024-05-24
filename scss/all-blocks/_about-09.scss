@@ -40,3 +40,17 @@
         // gap: 50px;
     }
 }
+.item-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .item-flex__paragraf{
+        line-height: 1.5;
+    }
+    .item-flex__img {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+}

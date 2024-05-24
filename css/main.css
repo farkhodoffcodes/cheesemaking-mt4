@@ -1493,6 +1493,21 @@ button {
   justify-content: space-between;
 }
 
+.item-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.item-flex .item-flex__paragraf {
+  line-height: 1.5;
+}
+.item-flex .item-flex__img {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -3391,6 +3406,21 @@ button {
 .about-img .about-img__flex {
   display: flex;
   justify-content: space-between;
+}
+
+.item-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.item-flex .item-flex__paragraf {
+  line-height: 1.5;
+}
+.item-flex .item-flex__img {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
