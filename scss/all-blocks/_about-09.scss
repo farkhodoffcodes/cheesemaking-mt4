@@ -1,17 +1,18 @@
 .elements__element{
     .elements__element-heading {
-        color: #4E2D2D;
+        color:$primary;
     }   
     .element__items{
         display: flex;
         justify-content: space-between;
         margin-top: 40px;
         margin-bottom: 40px;
+        color: $primary;
     }
 }
 .title{
     .title__heading {
-        color: #4E2D2D;
+        color: $primary;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -22,6 +23,10 @@
             width: 260px;
             margin-top: 20px;
             margin-bottom: 30px;
+            color: $gray;
+            h3{
+                color: $primary;
+            }
             .item-p{
                 margin-top: 5px;
                 margin-bottom: 10px;
@@ -31,7 +36,7 @@
 }
 .card{
     .card__h3 {
-        color: #4E2D2D;
+        color: $primary;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -39,6 +44,7 @@
         display: grid;
         grid-template-columns: auto auto;
         gap: 10px;
+        color: $gray;
         .card__cards-items {
             background: #fff;
             padding: 20px;
@@ -63,6 +69,10 @@
     margin-bottom: 50px;
     .item-flex__paragraf{
         line-height: 1.5;
+        color: $gray;
+        h2{
+            color: $primary;
+        }
     }
     .item-flex__img {
         display: grid;

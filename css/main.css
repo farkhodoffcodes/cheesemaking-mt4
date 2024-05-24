@@ -1464,6 +1464,7 @@ button {
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
+  color: #4E2D2D;
 }
 
 .title .title__heading {
@@ -1479,6 +1480,10 @@ button {
   width: 260px;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #666666;
+}
+.title .title__content .title__content-item__p h3 {
+  color: #4E2D2D;
 }
 .title .title__content .title__content-item__p .item-p {
   margin-top: 5px;
@@ -1494,6 +1499,7 @@ button {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
+  color: #666666;
 }
 .card .card__cards .card__cards-items {
   background: #fff;
@@ -1518,6 +1524,10 @@ button {
 }
 .item-flex .item-flex__paragraf {
   line-height: 1.5;
+  color: #666666;
+}
+.item-flex .item-flex__paragraf h2 {
+  color: #4E2D2D;
 }
 .item-flex .item-flex__img {
   display: grid;
@@ -3397,6 +3407,7 @@ button {
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
+  color: #4E2D2D;
 }
 
 .title .title__heading {
@@ -3412,6 +3423,10 @@ button {
   width: 260px;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #666666;
+}
+.title .title__content .title__content-item__p h3 {
+  color: #4E2D2D;
 }
 .title .title__content .title__content-item__p .item-p {
   margin-top: 5px;
@@ -3427,6 +3442,7 @@ button {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
+  color: #666666;
 }
 .card .card__cards .card__cards-items {
   background: #fff;
@@ -3451,6 +3467,10 @@ button {
 }
 .item-flex .item-flex__paragraf {
   line-height: 1.5;
+  color: #666666;
+}
+.item-flex .item-flex__paragraf h2 {
+  color: #4E2D2D;
 }
 .item-flex .item-flex__img {
   display: grid;
