@@ -1405,6 +1405,7 @@ button {
   display: grid;
   grid-template-columns: auto auto;
   gap: 100px;
+  color: #4E2D2D;
 }
 .items-grid .content__item {
   display: grid;
@@ -1439,7 +1440,7 @@ button {
   color: #4E2D2D;
 }
 .items-grid .content__cards .content__card .content__card-first .content__card-first-item2 {
-  color: #808080;
+  color: #666666;
 }
 .items-grid .content__cards .content__card .content__card-second {
   color: #292929;
@@ -1451,7 +1452,7 @@ button {
   gap: 10px;
 }
 .items-grid .content__cards .content__card .content__card-fourth {
-  color: #808080;
+  color: #666666;
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -3348,6 +3349,7 @@ button {
   display: grid;
   grid-template-columns: auto auto;
   gap: 100px;
+  color: #4E2D2D;
 }
 .items-grid .content__item {
   display: grid;
@@ -3382,7 +3384,7 @@ button {
   color: #4E2D2D;
 }
 .items-grid .content__cards .content__card .content__card-first .content__card-first-item2 {
-  color: #808080;
+  color: #666666;
 }
 .items-grid .content__cards .content__card .content__card-second {
   color: #292929;
@@ -3394,7 +3396,7 @@ button {
   gap: 10px;
 }
 .items-grid .content__cards .content__card .content__card-fourth {
-  color: #808080;
+  color: #666666;
   margin-top: 15px;
   margin-bottom: 10px;
 }
