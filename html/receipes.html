@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <aside class="aside"> 
+      <div class="container aside_container"> 
+        <ul class="aside_ul_list"> 
+          <li class="list_item"> <a class="list_link" href="#">
+              <button> <img src="./assets/logos/location.svg" alt=""><span>Ваш город: Москва</span><img src="./assets/logos/dropdown.svg" alt=""></button></a></li>
+          <li class="list_item"> <a class="list_link" href="#">
+              <button> <img src="./assets/logos/o'clock.svg" alt=""><span>Пн-Пт 9:00 - 19:00</span></button></a></li>
+        </ul>
+        <ol class="aside_ol_list"> 
+          <li class="list_item">О компании</li>
+          <li class="list_item">Преимущества</li>
+          <li class="list_item">Акционные товары</li>
+          <li class="list_item"> 
+            <button>         <img src="./assets/logos/user.svg" alt=""><span>Войти в аккаунт</span></button>
+          </li>
+        </ol>
+      </div>
+    </aside><!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/main.css">
+        <title>Document</title>
+      </head>
+      <body>   
+        <header class="header"> 
+          <div class="container header_container"> 
+            <div class="logo">  <a class="logo_link" href="#1"> <img class="logo_img" src="../../assets/logos/logo.svg" alt=""></a></div>
+            <ol class="header_ol_list"> 
+              <li class="list_item"> <img src="../../assets/logos/li_1.svg" alt=""></li>
+              <li class="list_item"> <img src="../../assets/logos/li_2.svg" alt=""></li>
+              <li class="list_item"> <img src="../../assets/logos/li_3.svg" alt=""></li>
+            </ol>
+            <ul class="header_ul_list"> 
+              <li class="list_item"> <img src="../../assets/imgs/Telegram.png" alt=""></li>
+              <li class="list_item"><img src="../../assets/imgs/WhatsUp.png" alt=""></li>
+              <li class="list_item"> <img src="../../assets/imgs/Messenger.png" alt=""></li>
+              <li class="list_item"> <span>+8 916 460-19-60</span><br>
+                <button> <img class="header_btn_img" src="../../assets/logos/phone.svg" alt=""><span>Заказать звонок</span></button>
+              </li>
+            </ul>
+            <div class="header_right"> 
+              <div class="right_text"> <span>Ваша корзина</span><br><br><span class="right_sum_text">1680 руб.</span></div>
+              <button class="header_right_btn" id="korzina"> <img src="../../assets/logos/savat.svg" alt=""></button>
+            </div>
+          </div>
+          <div class="korzina" id="korzina_box">   
+            <div class="icon"> 
+              <svg class="bi bi-caret-up-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"></path>
+                <svg></svg>
+              </svg>
+            </div>
+            <div class="title">
+              <h2>корзина (5)</h2>
+            </div>
+            <div class="boughted_box">
+              <div class="product">
+                <div class="product_img">   <img src="../../assets/imgs/zakvaska.png" alt=""></div>
+                <div class="product_name"> 
+                  <div class="top"> 
+                    <div class="name"> <span>Форма для твердого сыра 1 кг - 40 отверстий</span></div>
+                    <div class="icon_close"> <img class="close_icon" src="../../assets/logos/close_icon.svg" alt=""></div>
+                  </div>
+                  <div class="product_bottom"> 
+                    <div class="product_btns"> 
+                      <button id="add_product1">+</button>
+                      <button id="number">1</button>
+                      <button id="remove_product1">-</button>
+                    </div>
+                    <div class="product_summ"> <b>440 руб.</b></div>
+                  </div>
+                </div>
+              </div>
+              <div class="product product2">
+                <div class="product_img">   <img src="../../assets/imgs/goroshka.png" alt=""></div>
+                <div class="product_name"> 
+                  <div class="top"> 
+                    <div class="name"> <span>Универсальная бумага для сыра, 10 шт</span></div>
+                    <div class="icon_close"> <img class="close_icon2" src="../../assets/logos/close_icon.svg" alt=""></div>
+                  </div>
+                  <div class="product_bottom"> 
+                    <div class="product_btns"> 
+                      <button id="add_product2">+</button>
+                      <button id="number2">1</button>
+                      <button id="remove_product2">-</button>
+                    </div>
+                    <div class="product_summ"> <b>1240 руб.</b></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="korzina_list"> 
+              <ol class="list"> 
+                <li class="list_item"> 
+                  <h2><b>Товаров в корзине: </b><span>5 шт.</span></h2>
+                </li>
+                <li class="list_item"> 
+                  <h2><b>Общая стоимость: </b><span>1680 руб.</span></h2>
+                </li>
+              </ol>
+              <div class="bottom_btn"> 
+                <button class="card_btn"> Оформить заказ</button>
+              </div>
+            </div>
+          </div>
+          <nav class="navbar container"> 
+            <ol class="nav_list">
+              <li class="list_item" id="retsept">Рецепты <span> <img src="../../assets/logos/dropdown.svg" alt=""></span></li>
+              <li class="list_item">Доставка и оплата</li>
+              <li class="list_item">Калькулятор Сыродела</li>
+              <li class="list_item">Отзывы</li>
+              <li class="list_item">Вопросы и ответы</li>
+              <li class="list_item">Контакты</li>
+            </ol>
+            <div class="nav_input_search"> 
+              <button> <img src="../../assets/logos/search.svg" alt=""></button>
+              <input type="search" placeholder="Введите название товара или артикул">
+            </div>
+          </nav>
+          <div class="dropdown">
+            <ol class="dropdown_list"> 
+              <li class="list_item">
+                 Молодые сыры</li>
+              <li class="list_item">
+                 Полутвердые сыры</li>
+              <li class="list_item">
+                 Паста Филата</li>
+              <li class="list_item">
+                 Сывороточные сыры</li>
+              <li class="list_item">
+                 Сыры с плесенью</li>
+              <li class="list_item">
+                 Твердые сыры</li>
+              <li class="list_item">
+                 Творожные сыры</li>
+              <li class="list_item">
+                 Кисломолочные продукты</li>
+              <li class="list_item">
+                 Все рецепты</li>
+            </ol>
+          </div>
+        </header>
+      </body>
+    </html>
+    <main class="main">
+      <div class="modal__container d-none">
+        <div class="modal__menu">
+          <div class="modal__title">
+            <h3>Выберите производителя</h3>
+            <button> <img src="./assets/recipies/close btn.png"></button>
+          </div>
+          <div class="modal__box"><img src="./assets/recipies/modal__retsept.png">
+            <div class="modal__text">
+              <p>Sacco, Италия <span> <img src="./assets/recipies/star.png" alt=""></span></p>
+              <h4>Ароматообразующая закваска LH 100 LYO (10D)</h4><span>860 руб. / 1 шт.</span><span> 
+                <button>В корзину</button></span>
+            </div>
+          </div>
+          <div class="modal__box"><img src="./assets/recipies/modal__retsept.png">
+            <div class="modal__text">
+              <p>Sacco, Италия <span> <img src="./assets/recipies/star.png" alt=""></span></p>
+              <h4>Ароматообразующая закваска LH 100 LYO (10D)</h4><span>860 руб. / 1 шт.</span><span> 
+                <button>В корзину</button></span>
+            </div>
+          </div>
+          <div class="modal__box"><img src="./assets/recipies/modal__retsept.png">
+            <div class="modal__text">
+              <p>Sacco, Италия <span> <img src="./assets/recipies/star.png" alt=""></span></p>
+              <h4>Ароматообразующая закваска LH 100 LYO (10D)</h4><span>860 руб. / 1 шт.</span><span> 
+                <button>В корзину</button></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="hero container">
+        <div class="hero_container">
+          <div class="hero_end"> 
+            <div class="hero_carousels">
+              <div class="left_carousel">  
+                <ol class="carousel_list"> 
+                  <li class="list_item title"> <img src="./assets/header/cheese.svg" alt=""><span>Ингредиенты</span></li>
+                  <li class="list_item"> <span>Закваски для сыра</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Ферменты для сыра</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Хлористый кальций</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Плесень для сыра</span>
+                    <div class="dropright"> <img src="./assets/logos/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Кисломолочные закваски</span>
+                    <div class="dropright"> <img src="./assets/logos/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Красители для сыра </span>
+                    <div class="dropright"> <img src="./assets/logos/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"><span>Специи для сыра</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                </ol>
+              </div>
+              <div class="left_carousel_2"> 
+                <ol class="carousel_list"> 
+                  <li class="list_item title"> <img src="./assets/header/bowl.svg" alt=""><span>Оборудование</span></li>
+                  <li class="list_item"> <span>Формы для сыра</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Латексное покрытие</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Воск для сыра</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Термоусадочные пакеты</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Дренажные коврики</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"> <span>Дренажные мешки и салфетки для прессования </span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                  <li class="list_item"><span>Дренажные контейнеры</span>
+                    <div class="dropright"> <img src="./assets/header/dropright.svg" alt=""></div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="retsept__container d-block container">
+              <div class="retsept__sir"> 
+                <h1 class="card__title">рецепты сыров</h1>
+                <div class="retsept__card">
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_1.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_2.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_3.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_4.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_5.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                  <div class="retsept__item"><img src="./assets/recipies/retsept_sir_6.png" alt="">
+                    <div class="sir__title">
+                      <h3>Молодые сыры</h3>
+                      <h5>Смотреть</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yaqinda__qushilgan">
+                <h1 class="card__title">Последние добавленные</h1>
+                <div class="yaqinda__qushilgan_card">
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_1.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_2.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_3.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_4.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_5.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                  <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_6.png" alt="">
+                    <div class="yaqinda__qushilgan__title"> 
+                      <h5>Сырная тарелка</h5>
+                      <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                      <button>Читать далее </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="davomi">
+                <button class="ckickMe">Загрузить еще</button>
+              </div>
+            </div>
+            <div class="sir__tavsiv d-none">
+              <h1 class="tavsiv__title">Описание сыра</h1>
+              <div class="retsept__sir__text">
+                <p>Это мягкий вид сыра, который получают из коровьего молока. Считается одним из самых вкусных французских лакомств. Его изготавливают во многих странах Европы и в разных вариациях – де Мелен, де Мо, де Куломье.</p>
+                <p>Для сыра характерен бледный оттенок. Имеет «благоприятную» плесень. Отличается наличием не сильного запаха нашатыря. Его приятный вкус буквально очаровывает (чем-то напоминает камамбер). При добавлении специальных ферментов может образовываться корочка.</p>
+              </div>
+              <div class="sir__haqida_img"> <img src="./assets/recipies/sir_haqida_1.png" alt=""><img src="./assets/recipies/sir_haqida_2.png" alt=""><img src="./assets/recipies/sir_haqida_3.png" alt=""><img src="./assets/recipies/sir_haqida_4.png" alt=""></div>
+              <div class="retsept__sir__text">
+                <p>Хорошо подходит к праздничному застолью. Сочетается с закусками, бутербродами, супами и салатами. Также этот молочный продукт часто применяют для приготовления пикантных заправок и соусов. Некоторые сочетают Бри с мясом, овощами и фруктами. Поэтому можно считать этот сыр универсальным лакомством</p>
+                <p>В его химическом составе содержится витамин А. Он помогает вырабатывать коллаген, который улучшает цвет кожи. Витамин В благоприятно влияет на нервную систему человека. Это очень сильно помогает при усталости и бессоннице.</p>
+              </div>
+              <div class="retsept__korzinka"> 
+                <h3 class="table__title">Ингредиенты</h3>
+                <table> 
+                  <tr> 
+                    <td class="left-align">Фермент – 1/8 ч.л</td>
+                    <td class="right-align"> 
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="left-align">Термофильная закваска STI-12 (50U)</td>
+                    <td class="right-align"> 
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="left-align">Белая плесень – 10 грамм</td>
+                    <td class="right-align"> 
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="left-align">Молоко – 10 литров</td>
+                  </tr>
+                  <tr> 
+                    <td class="right-align">20% солевой раствор: соль-1 кг, вода кипяченая-4 л, хлористый кальций- 1 ст.л, уксус столовый 9%- 1 ч.л.</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="retsept__korzinka"> 
+                <h3 class="table__title">Оборудование</h3>
+                <table>
+                  <tr>
+                    <td class="left-align">Кастрюля из нержавейки</td>
+                    <td class="right-align">
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left-align">Дуршлаг, шумовка и марля</td>
+                    <td class="right-align">
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left-align">Термометр для молока</td>
+                    <td class="right-align">
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left-align">Форма для сыра Бри</td>
+                    <td class="right-align">
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left-align">Пищивой пульвилизатор</td>
+                    <td class="right-align">
+                      <button>В корзину</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="retsept__sir__text"> 
+                <h1 class="tavsiv__title">польза сыра</h1>
+                <p>Который значительно укрепляет костную ткань. В сыре содержится много других минералов – магний, фосфор кадий, натрий, сера, хлор и др. Но при этом практически отсутствует лактоза. Поэтому Бри могут легко употреблять в пищу люди с аллергией на лактозу.</p>
+                <p>Пищевая ценность сыра: в 100 граммах содержится 334 калория. Жиры – 28 грамм, холестерин – 100 мг, натрий – 629 мг, калий – 152 мг, углеводы – 0,5 грамм, белки – 21 грамм.</p>
+                <p>Рецепт сыра Бри достаточно простой. Вам нужно подготовить все необходимые ингредиенты и оборудование. Следуйте рекомендованному процессу приготовления и не нарушайте дозировку. В таком случае у вас обязательно получится настоящий французский сыр.</p>
+              </div>
+              <div class="vino__img"> <img src="./assets/recipies/retsept__vino.png" alt=""></div>
+              <div class="tayyotlash"> 
+                <h2 class="tavsiv__title">как приготовить в домашних условиях</h2>
+                <div class="tayorlash__box"> 
+                  <h1>01</h1>
+                  <p>Поставьте на плиту кастрюлю и залейте в нее молоко (это нужно делать через марлю и дуршлаг, чтобы никакой мусор не попал). Установите термометр и нагрейте жидкость до температуры 32 градуса Цельсия.</p>
+                </div>
+                <div class="tayorlash__box"> 
+                  <h1>02</h1>
+                  <p>Внесите закваску и подождите пару минут пока она будет регидрироваться. Затем равномерно перемешайте смесь.</p>
+                </div>
+                <div class="tayorlash__box"> 
+                  <h1>03</h1>
+                  <p>Спустя 30 минут возьмите стакан с 15-20 мл воды и растворите в нем фермент. Вылейте жидкость в молоко и оставьте эту смесь на 90 минут.</p>
+                </div>
+                <div class="tayorlash__box"> 
+                  <h1>04</h1>
+                  <p>Поставьте на плиту кастрюлю и залейте в нее молоко (это нужно делать через марлю и дуршлаг, чтобы никакой мусор не попал). Установите термометр и нагрейте жидкость до температуры 32 градуса Цельсия.</p>
+                </div>
+              </div>
+              <div class="mashxur__retseptlar d-none">
+                <h1 class="tavsiv__title">Рекомендации по рецептам:</h1>
+                <div class="mashxur__retseptlar__text">
+                  <ol> 
+                    <li>Пастеризация молока при +68 °C в течение 10 мин дает возможность достичь нужной нам цели без риска перегрева молока. </li>
+                    <li>Чтобы определить «точку флокуляции» - время, за которое происходит превращения молочной жидкости в сырный сгусток, нужно развести фермент в небольшом количестве воды и ввести в молоко, размешивая в течении 40 секунд.  </li>
+                    <li>После берем крышечку и кладем на поверхность молока, ждем пока она не престанет вращаться, изредка подталкивая крышечку пальцем - проверяем . </li>
+                  </ol>
+                  <p>Как только крышечка застыла – мы достигли точки флокуляции. Как только крышечка застыла – мы достигли точки флокуляции. Время от момента внесения фермента и до образования сгустка засекаем – это и будет искомый показатель, который умножаем на 3. Так мы получаем время, которое выдерживаем с момента засыпки порошка до нарезки сгустка. Например, если мы внести фермент в 12.10, крышечка перестала двигаться через 10 минут, сгусток можно нарезать в 12.40.  </p>
+                  <ol> 
+                    <li>Деление зерна следует начинать с нарезки вертикальных полос. После 5 минут ожидания, режутся горизонтальные полосы и ждем еще 5 минут. Такой подход позволит сохранить целостность зерна и достичь оптимального (не очень быстрого) отхождения сыворотки. </li>
+                    <li>Оптимальная температура кипятка при вытягивании сыра Моцарелла +70 °C. </li>
+                    <li>Изучение рецептур по обучающим роликам – хороший способ изучить технологию и составить список необходимых для приготовления сыра товаров.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular__retsept d-none">
+            <h1 class="tavsiv__title">популярные рецепты</h1>
+            <div class="yaqinda__qushilgan_card">
+              <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_1.png" alt="">
+                <div class="yaqinda__qushilgan__title"> 
+                  <h5>Сырная тарелка</h5>
+                  <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                </div>
+                <button>Читать далее </button>
+              </div>
+              <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_2.png" alt="">
+                <div class="yaqinda__qushilgan__title"> 
+                  <h5>Сырная тарелка</h5>
+                  <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                </div>
+                <button>Читать далее </button>
+              </div>
+              <div class="yaqinda__qushilgan_item"><img src="./assets/recipies/retsept_sir_3.png" alt="">
+                <div class="yaqinda__qushilgan__title"> 
+                  <h5>Сырная тарелка</h5>
+                  <p>Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...</p>
+                </div>
+                <button>Читать далее </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main><!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/main.css">
+        <title>Document</title>
+      </head>
+      <body> 
+        <footer class="footer"> 
+          <div class="container footer_container"> 
+            <div class="listes"> 
+              <ol class="footer_list"> 
+                <li class="list_item"> <a href="#"><a href="#"> </a>
+                    <div class="logo"> <img src="../../assets/logos/logo.svg" alt=""></div></a></li>
+                <li class="list_item"> <a href="#">
+                    <p>Все материалы данного сайта являются объектами авторского права.</p></a></li>
+                <li class="list_item"><a href="#">Разработка сайта: ЛяЧиз </a></li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Компания</b></li>
+                <li class="list_item"> <a href="#">О компании</a></li>
+                <li class="list_item"><a href="#product_btn">Акции и скидки</a></li>
+                <li class="list_item"><a href="#dostavka">Доставка и оплата</a></li>
+                <li class="list_item"><a href="#otzivi">Отзывы</a></li>
+                <li class="list_item"><a href="#garanti">Гарантия и возврат</a></li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Поддержка</b></li>
+                <li class="list_item"> <a href="#">Вопрос-ответ</a></li>
+                <li class="list_item"><a href="#">Бонусная программа</a></li>
+                <li class="list_item"><a href="#">Политика конфиденциальности</a></li>
+                <li class="list_item"><a href="#">Персональные данных</a></li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Способы оплаты</b></li>
+                <li class="list_item imgs_list_item"> <img src="../../assets/logos/ruble_icon.svg" alt=""><img src="../../assets/logos/vec_icon.svg" alt=""><img src="../../assets/logos/sberbank_icon.svg" alt=""><img src="../../assets/logos/yandex_icon.svg" alt=""><img src="../../assets/logos/mastercard_icon.svg" alt=""><img src="../../assets/logos/visa_icon.svg" alt=""></li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <a href="#"><b>+7 495 120-00-00</b></a></li>
+                <li class="list_item"><a href="#"><img src="../../assets/logos/o'clock.svg" alt=""><span>Пн-Пт 9:00 - 19:00</span></a></li>
+                <li class="list_item"><a href="#"><img src="./../assets/logos/location.svg" alt=""><span>г. Москва,  улица Свободы 1/7</span></a></li>
+                <li class="list_item imgs_list_item"><a href="https://www.instagram.com/cheesemaking-shop/" target="_blank"><img src="../../assets/imgs/logo-instagram.png" alt=""></a><a href="https://vk.com" target="_blank"><img src="../../assets/imgs/logo-vk.png" alt=""></a><a href="https://twitter.com" target="_blank"><img src="../../assets/imgs/logo-twitter.png" alt=""></a><a href="https://facebook.com" target="_blank"><img src="../../assets/imgs/logo-facebook.png" alt=""></a><a href="https://www.youtube.com/@TheCheeseMakingShop/featured" target="_blank"><img src="../../assets/imgs/logo-youtube.png" alt=""></a>
+                  <div class="logo"> <img src="../../assets/logos/logo.svg" alt=""></div>
+                </li>
+                <li class="list_item"> 
+                  <p>Все материалы данного сайта являются объектами авторского права.</p>
+                </li>
+                <li class="list_item">Разработка сайта: ЛяЧиз </li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Компания</b></li>
+                <li class="list_item">
+                   О компании</li>
+                <li class="list_item">Акции и скидки</li>
+                <li class="list_item">Доставка и оплата</li>
+                <li class="list_item">Отзывы</li>
+                <li class="list_item">Гарантия и возврат</li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Поддержка</b></li>
+                <li class="list_item">
+                   Вопрос-ответ</li>
+                <li class="list_item">Бонусная программа</li>
+                <li class="list_item">Политика конфиденциальности</li>
+                <li class="list_item">Персональные данных</li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>Способы оплаты</b></li>
+                <li class="list_item imgs_list_item"><img src="../../assets/logos/ruble_icon.svg" alt=""><img src="../../assets/logos/vec_icon.svg" alt=""><img src="../../assets/logos/sberbank_icon.svg" alt=""><img src="../../assets/logos/yandex_icon.svg" alt=""><img src="../../assets/logos/mastercard_icon.svg" alt=""><img src="../../assets/logos/visa_icon.svg" alt=""></li>
+              </ol>
+              <ol class="footer_list"> 
+                <li class="list_item"> <b>+7 495 120-00-00</b></li>
+                <li class="list_item"><img src="../../assets/logos/o'clock.svg" alt=""><span>Пн-Пт 9:00 - 19:00</span></li>
+                <li class="list_item"><img src="./../assets/logos/location.svg" alt=""><span>г. Москва,  улица Свободы 1/7</span></li>
+                <li class="list_item imgs_list_item"><img src="../../assets/imgs/logo-instagram.png" alt=""><img src="../../assets/imgs/logo-vk.png" alt=""><img src="../../assets/imgs/logo-twitter.png" alt=""><img src="../../assets/imgs/logo-facebook.png" alt=""><img src="../../assets/imgs/logo-youtube.png" alt=""></li>
+              </ol>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
+    <script src="./js/no_enter.js"></script>
+  </body>
+</html>
