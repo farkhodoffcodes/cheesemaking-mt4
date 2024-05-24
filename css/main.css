@@ -1456,6 +1456,43 @@ button {
   margin-bottom: 10px;
 }
 
+.elements__element .elements__element-heading {
+  color: #4E2D2D;
+}
+.elements__element .element__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title .title__heading {
+  color: #4E2D2D;
+}
+.title .title__content {
+  display: flex;
+  justify-content: space-between;
+}
+.title .title__content .title__content-item__p {
+  width: 260px;
+}
+
+.card .card__h3 {
+  color: #4E2D2D;
+}
+.card .card__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.card .card__cards .card__cards-items {
+  background: #fff;
+  padding: 20px;
+}
+
+.about-img .about-img__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -3317,6 +3354,43 @@ button {
   color: #808080;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+
+.elements__element .elements__element-heading {
+  color: #4E2D2D;
+}
+.elements__element .element__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title .title__heading {
+  color: #4E2D2D;
+}
+.title .title__content {
+  display: flex;
+  justify-content: space-between;
+}
+.title .title__content .title__content-item__p {
+  width: 260px;
+}
+
+.card .card__h3 {
+  color: #4E2D2D;
+}
+.card .card__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.card .card__cards .card__cards-items {
+  background: #fff;
+  padding: 20px;
+}
+
+.about-img .about-img__flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=main.css.map */
