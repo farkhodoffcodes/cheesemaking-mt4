@@ -1,139 +1,130 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="../../css/main.css")
-        title Document
-    body    
+header.header 
+    .container.header_container 
+        .logo   
+            a.logo_link(href="#1") 
+                img.logo_img(src="../../assets/logos/logo.svg" alt="")   
 
-        header.header 
-            .container.header_container 
-                .logo   
-                    a.logo_link(href="#1") 
-                        img.logo_img(src="../../assets/logos/logo.svg", alt="")   
+        ol.header_ol_list 
+            li.list_item 
+                img(src="../../assets/logos/li_1.svg" alt="")
+            li.list_item 
+                img(src="../../assets/logos/li_2.svg" alt="")
+            li.list_item 
+                img(src="../../assets/logos/li_3.svg" alt="")
 
-                ol.header_ol_list 
-                    li.list_item 
-                        img(src="../../assets/logos/li_1.svg", alt="")
-                    li.list_item 
-                        img(src="../../assets/logos/li_2.svg", alt="")
-                    li.list_item 
-                        img(src="../../assets/logos/li_3.svg", alt="")
+        ul.header_ul_list 
+            li.list_item 
+                img(src="../../assets/imgs/Telegram.png" alt="")
+            li.list_item
+                img(src="../../assets/imgs/WhatsUp.png" alt="")
+            li.list_item 
+                img(src="../../assets/imgs/Messenger.png" alt="")
+            li.list_item 
+                span +8 916 460-19-60
+                br
+                button 
+                    img.header_btn_img(src="../../assets/logos/phone.svg" alt="")
+                    span Заказать звонок
 
-                ul.header_ul_list 
-                    li.list_item 
-                        img(src="../../assets/imgs/Telegram.png", alt="")
-                    li.list_item
-                        img(src="../../assets/imgs/WhatsUp.png", alt="")
-                    li.list_item 
-                        img(src="../../assets/imgs/Messenger.png", alt="")
-                    li.list_item 
-                        span +8 916 460-19-60
-                        br
-                        button 
-                           img.header_btn_img(src="../../assets/logos/phone.svg", alt="")
-                           span Заказать звонок
+        .header_right 
+            .right_text 
+                span Ваша корзина
+                br
+                br
+                span.right_sum_text 1680 руб.
+            button.header_right_btn#korzina  
+                img(src="../../assets/logos/savat.svg" alt="")
 
-                .header_right 
-                    .right_text 
-                        span Ваша корзина
-                        br
-                        br
-                        span.right_sum_text 1680 руб.
-                    button.header_right_btn#korzina  
-                        img(src="../../assets/logos/savat.svg", alt="")
+    .korzina#korzina_box    
+        .icon 
+            svg(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16")
+                path( d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z")
+                svg
 
-            .korzina#korzina_box    
-                .icon 
-                    svg(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16")
-                        path( d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z")
-                        svg
+        .title
+            h2 корзина (5)
 
-                .title
-                    h2 корзина (5)
+        .boughted_box
+            .product
+                .product_img    
+                    img(src="../../assets/imgs/zakvaska.png" alt="")
+                .product_name 
+                    .top 
+                        .name 
+                            span Форма для твердого сыра 1 кг - 40 отверстий
+                        .icon_close 
+                            img.close_icon(src="../../assets/logos/close_icon.svg" alt="")
+                    .product_bottom 
+                        .product_btns 
+                            button#add_product1 +
+                            button#number 1
+                            button#remove_product1 -
+                        .product_summ 
+                            b 440 руб.
+            .product.product2
+                .product_img    
+                    img(src="../../assets/imgs/goroshka.png" alt="")
+                .product_name 
+                    .top 
+                        .name 
+                            span Универсальная бумага для сыра, 10 шт
+                        .icon_close 
+                            img.close_icon2(src="../../assets/logos/close_icon.svg" alt="")
+                    .product_bottom 
+                        .product_btns 
+                            button#add_product2 +
+                            button#number2 1
+                            button#remove_product2 -
+                        .product_summ 
+                            b 1240 руб.
 
-                .boughted_box
-                    .product
-                        .product_img    
-                            img(src="../../assets/imgs/zakvaska.png", alt="")
-                        .product_name 
-                            .top 
-                                .name 
-                                    span Форма для твердого сыра 1 кг - 40 отверстий
-                                .icon_close 
-                                    img.close_icon(src="../../assets/logos/close_icon.svg", alt="")
-                            .product_bottom 
-                                .product_btns 
-                                    button#add_product1 +
-                                    button#number 1
-                                    button#remove_product1 -
-                                .product_summ 
-                                    b 440 руб.
-                    .product.product2
-                        .product_img    
-                            img(src="../../assets/imgs/goroshka.png", alt="")
-                        .product_name 
-                            .top 
-                                .name 
-                                    span Универсальная бумага для сыра, 10 шт
-                                .icon_close 
-                                    img.close_icon2(src="../../assets/logos/close_icon.svg", alt="")
-                            .product_bottom 
-                                .product_btns 
-                                    button#add_product2 +
-                                    button#number2 1
-                                    button#remove_product2 -
-                                .product_summ 
-                                    b 1240 руб.
+        .korzina_list 
+            ol.list 
+                li.list_item 
+                    h2
+                        b Товаров в корзине: 
+                        span 5 шт.
 
-                .korzina_list 
-                    ol.list 
-                        li.list_item 
-                            h2
-                                b Товаров в корзине: 
-                                span 5 шт.
+                li.list_item 
+                    h2
+                        b Общая стоимость: 
+                        span 1680 руб.
+            .bottom_btn 
+                button.card_btn  Оформить заказ
 
-                        li.list_item 
-                            h2
-                                b Общая стоимость: 
-                                span 1680 руб.
-                    .bottom_btn 
-                        button.card_btn  Оформить заказ
-
-            nav.navbar.container 
-                ol.nav_list
-                    li.list_item#retsept Рецепты 
-                        span 
-                            img(src="../../assets/logos/dropdown.svg", alt="")
-                    li.list_item Доставка и оплата
-                    li.list_item Калькулятор Сыродела
-                    li.list_item Отзывы
-                    li.list_item Вопросы и ответы
-                    li.list_item Контакты
-                .nav_input_search 
-                    button 
-                        img(src="../../assets/logos/search.svg", alt="")
-                    input(type="search" , placeholder="Введите название товара или артикул")
-            .dropdown
-                ol.dropdown_list 
-                    li.list_item 
-                        |Молодые сыры
-                    li.list_item 
-                        |Полутвердые сыры
-                    li.list_item 
-                        |Паста Филата
-                    li.list_item 
-                        |Сывороточные сыры
-                    li.list_item 
-                        |Сыры с плесенью
-                    li.list_item 
-                        |Твердые сыры
-                    li.list_item 
-                        |Творожные сыры
-                    li.list_item 
-                        |Кисломолочные продукты
-                    li.list_item 
-                        |Все рецепты
+    nav.navbar.container 
+        ol.nav_list
+            li.list_item#retsept Рецепты 
+                span 
+                    img(src="../../assets/logos/dropdown.svg" alt="")
+            li.list_item Доставка и оплата
+            li.list_item Калькулятор Сыродела
+            li.list_item Отзывы
+            li.list_item Вопросы и ответы
+            li.list_item Контакты
+        .nav_input_search 
+            button 
+                img(src="../../assets/logos/search.svg" alt="")
+            input(type="search" , placeholder="Введите название товара или артикул")
+    .dropdown
+        ol.dropdown_list 
+            li.list_item 
+                |Молодые сыры
+            li.list_item 
+                |Полутвердые сыры
+            li.list_item 
+                |Паста Филата
+            li.list_item 
+                |Сывороточные сыры
+            li.list_item 
+                |Сыры с плесенью
+            li.list_item 
+                |Твердые сыры
+            li.list_item 
+                |Творожные сыры
+            li.list_item 
+                |Кисломолочные продукты
+            li.list_item 
+                |Все рецепты
 
 
