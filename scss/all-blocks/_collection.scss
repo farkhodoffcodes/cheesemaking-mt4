@@ -1,0 +1,52 @@
+.products_container-child{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto auto;
+}
+.products__cards{
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #E7E7E7;
+
+    .cards_title-imgs{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 236px;
+        margin-bottom: 10px;
+    }
+    .cards_info{
+        h3{
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        p{
+            font-size: 14px;
+            font-family: Circe Rounded, sans-serif;
+            color: #808080;
+            line-height: 22px;
+            margin-top: 10px;
+        }
+    }
+    .cards_footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: max-content;
+        margin-top: 20px;
+        h2{
+            font-weight: 600;
+        }
+        button{
+            width: 130px;
+            height: 38px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FD9339;
+            color: white;
+            margin-left: 186px;
+        }
+    }
+}
+
+.errr0rr{
+    margin-top: 600px;
+}

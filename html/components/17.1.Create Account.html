@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Document</title>
+  </head>
+  <body> 
+    <header class="header"> 
+      <div class="container header_container"> 
+        <div class="logo">  <a class="logo_link" href="#1"> <img class="logo_img" src="../../assets/logos/logo.svg" alt=""></a></div>
+        <ol class="header_ol_list"> 
+          <li class="list_item"> <img src="../../assets/logos/li_1.svg" alt=""></li>
+          <li class="list_item"> <img src="../../assets/logos/li_2.svg" alt=""></li>
+          <li class="list_item"> <img src="../../assets/logos/li_3.svg" alt=""></li>
+        </ol>
+        <ul class="header_ul_list"> 
+          <li class="list_item"> <img src="../../assets/imgs/Telegram.png" alt=""></li>
+          <li class="list_item"><img src="../../assets/imgs/WhatsUp.png" alt=""></li>
+          <li class="list_item"> <img src="../../assets/imgs/Messenger.png" alt=""></li>
+          <li class="list_item"> <span>+8 916 460-19-60</span><br>
+            <button> <img class="header_btn_img" src="../../assets/logos/phone.svg" alt=""><span>Заказать звонок</span></button>
+          </li>
+        </ul>
+        <div class="header_right"> 
+          <div class="right_text"> <span>Ваша корзина</span><br><br><span class="right_sum_text">1680 руб.</span></div>
+          <button class="header_right_btn" id="korzina"> <img src="../../assets/logos/savat.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="korzina" id="korzina_box">   
+        <div class="icon"> 
+          <svg class="bi bi-caret-up-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"></path>
+            <svg></svg>
+          </svg>
+        </div>
+        <div class="title">
+          <h2>корзина (5)</h2>
+        </div>
+        <div class="boughted_box">
+          <div class="product">
+            <div class="product_img">   <img src="../../assets/imgs/zakvaska.png" alt=""></div>
+            <div class="product_name"> 
+              <div class="top"> 
+                <div class="name"> <span>Форма для твердого сыра 1 кг - 40 отверстий</span></div>
+                <div class="icon_close"> <img class="close_icon" src="../../assets/logos/close_icon.svg" alt=""></div>
+              </div>
+              <div class="product_bottom"> 
+                <div class="product_btns"> 
+                  <button id="add_product1">+</button>
+                  <button id="number">1</button>
+                  <button id="remove_product1">-</button>
+                </div>
+                <div class="product_summ"> <b>440 руб.</b></div>
+              </div>
+            </div>
+          </div>
+          <div class="product product2">
+            <div class="product_img">   <img src="../../assets/imgs/goroshka.png" alt=""></div>
+            <div class="product_name"> 
+              <div class="top"> 
+                <div class="name"> <span>Универсальная бумага для сыра, 10 шт</span></div>
+                <div class="icon_close"> <img class="close_icon2" src="../../assets/logos/close_icon.svg" alt=""></div>
+              </div>
+              <div class="product_bottom"> 
+                <div class="product_btns"> 
+                  <button id="add_product2">+</button>
+                  <button id="number2">1</button>
+                  <button id="remove_product2">-</button>
+                </div>
+                <div class="product_summ"> <b>1240 руб.</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="korzina_list"> 
+          <ol class="list"> 
+            <li class="list_item"> 
+              <h2><b>Товаров в корзине: </b><span>5 шт.</span></h2>
+            </li>
+            <li class="list_item"> 
+              <h2><b>Общая стоимость: </b><span>1680 руб.</span></h2>
+            </li>
+          </ol>
+          <div class="bottom_btn"> 
+            <button class="card_btn"> Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar container"> 
+        <ol class="nav_list">
+          <li class="list_item" id="retsept">Рецепты <span> <img src="../../assets/logos/dropdown.svg" alt=""></span></li>
+          <li class="list_item">Доставка и оплата</li>
+          <li class="list_item">Калькулятор Сыродела</li>
+          <li class="list_item">Отзывы</li>
+          <li class="list_item">Вопросы и ответы</li>
+          <li class="list_item">Контакты</li>
+        </ol>
+        <div class="nav_input_search"> 
+          <button> <img src="../../assets/logos/search.svg" alt=""></button>
+          <input type="search" placeholder="Введите название товара или артикул">
+        </div>
+      </nav>
+      <div class="dropdown">
+        <ol class="dropdown_list"> 
+          <li class="list_item">
+             Молодые сыры</li>
+          <li class="list_item">
+             Полутвердые сыры</li>
+          <li class="list_item">
+             Паста Филата</li>
+          <li class="list_item">
+             Сывороточные сыры</li>
+          <li class="list_item">
+             Сыры с плесенью</li>
+          <li class="list_item">
+             Твердые сыры</li>
+          <li class="list_item">
+             Творожные сыры</li>
+          <li class="list_item">
+             Кисломолочные продукты</li>
+          <li class="list_item">
+             Все рецепты</li>
+        </ol>
+      </div>
+    </header>
+    <div class="container-create-acnt">
+      <div class="left"> 
+        <div class="container-create-acnt-child" 1>
+          <div class="title-child" 1>
+            <h1>Регистрация аккаунта</h1>
+            <p>Делайте покупки быстро и удобно, отслеживайте статус заказа и получайте скидки.</p>
+          </div>
+          <div class="menu-child" 1>
+            <div class="content-child" 1><img src="" alt="">
+              <h2>Возвращаем 10% бонусами</h2>
+              <p>При заказе на сумму от 3500 руб. и весе до 3 кг. предоставляется бесплатная доставка по всей Россиию</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
