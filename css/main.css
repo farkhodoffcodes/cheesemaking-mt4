@@ -1772,6 +1772,66 @@ button {
   font-weight: 700;
 }
 
+.recovery-password_content {
+  background-color: white;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 50px;
+  border: 1px solid rgba(229, 229, 229, 0.2);
+  margin-left: 24%;
+  margin-top: 40px;
+}
+
+.inputdev {
+  display: grid;
+  margin-top: 60px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.inputdev label {
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-weight: 550;
+}
+.inputdev input {
+  padding: 14px;
+  padding-right: 320px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #BFBFBF;
+}
+
+.mini-header p {
+  line-height: 22px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.createbtn {
+  margin-top: 10px;
+  width: 217px;
+  height: 52px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FD9339;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Circe Rounded, sans-serif;
+}
+
+.trust-3 {
+  margin-top: 80px;
+}
+
+.trust-3 span {
+  color: #FD9339;
+  text-decoration: underline;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -3942,4 +4002,64 @@ button {
   color: #FD9339;
   font-size: 16px;
   font-weight: 700;
+}
+
+.recovery-password_content {
+  background-color: white;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 50px;
+  border: 1px solid rgba(229, 229, 229, 0.2);
+  margin-left: 24%;
+  margin-top: 40px;
+}
+
+.inputdev {
+  display: grid;
+  margin-top: 60px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.inputdev label {
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-weight: 550;
+}
+.inputdev input {
+  padding: 14px;
+  padding-right: 320px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #BFBFBF;
+}
+
+.mini-header p {
+  line-height: 22px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.createbtn {
+  margin-top: 10px;
+  width: 217px;
+  height: 52px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FD9339;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Circe Rounded, sans-serif;
+}
+
+.trust-3 {
+  margin-top: 80px;
+}
+
+.trust-3 span {
+  color: #FD9339;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
