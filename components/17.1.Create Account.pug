@@ -2,8 +2,8 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="../../css/main.css")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="../../css/main.css")
         title Document
     body 
         //- Header include
@@ -11,13 +11,53 @@ html(lang="en")
         //- Header include
         .container-create-acnt
             .left 
-                .container-create-acnt-child(1)
-                    .title-child(1)
+                .container-create-acnt-child-1
+                    .title-child-1
                         h1 Регистрация аккаунта
-                        p Делайте покупки быстро и удобно, отслеживайте статус заказа и получайте скидки.
-                    .menu-child(1)
-                        .content-child(1)
-                            img(src="", alt="")
+                        p Делайте покупки быстро и удобно, отслеживайте статус заказа и<br> получайте скидки.
+                    .menu-child-1
+                        .content-child-1
+                            img(src="/assets/img/ImgForAsliddin/create-acc/christmas-gift 1.png" alt="")
                             h2 Возвращаем 10% бонусами
-                            p При заказе на сумму от 3500 руб. и весе до 3 кг. предоставляется бесплатная доставка по всей Россиию
+                            p При заказе на сумму от 3500 руб. и весе до 3 кг. предоставляется бесплатная <br>доставка по всей Россиию
+                        .content-child-1
+                            img(src="/assets/img/ImgForAsliddin/create-acc/social-medias-rewards-rating-10 1.png" alt="")
+                            h2 Гарантия качества
+                            p При заказе на сумму от 3500 руб. и весе до 3 кг. предоставляется бесплатная <br>доставка по всей Россиию
+                        .content-child-1
+                            img(src="/assets/img/imgforasliddin/create-acc/credit-cards.3 1.png" alt="")
+                            h2 Удобные способы оплаты
+                            p При заказе на сумму от 3500 руб. и весе до 3 кг. предоставляется бесплатная <br>доставка по всей Россиию
             .right
+                .inputdev 
+                    label(for="hek") Ваше имя и фамилия
+                    input( id="hek" type="text" placeholder="Владимир Иванов")
+                .inputdev 
+                    label(for="hek2") Электронная почта
+                    input( id="hek2" type="text" placeholder="yourname@mail.com")
+                .biginputdev
+                    .inputdev 
+                        label(for="") Пароль для входа
+                        input(type="text" placeholder="От 8 и более символов")
+                    .inputdev 
+                        label(for="") Подтвердите пароль
+                        input(type="text" placeholder="Повторите пароль")
+                button.createbtn Создать аккаунт
+
+                .right-footer
+                    .trust  
+                        img(src="/assets/img/ImgForAsliddin/create-acc/Line 19.png" alt="")
+                        h3 или
+                        img(src="/assets/img/ImgForAsliddin/create-acc/Line 19.png" alt="")
+                    img.groupimg(src="/assets/img/ImgForAsliddin/create-acc/Group 324.png" alt="")
+                    .trust-2
+                        div.trust-child1
+                            img(src="/assets/img/ImgForAsliddin/create-acc/Emptyw.png" alt="")
+                            h3 Получать письма с новостями и акциями
+                        div.trust-child2
+                            img(src="/assets/img/ImgForAsliddin/create-acc/Empty.png" alt="")
+                            h3 Я прочитал и соглашаюсь с условиями 
+                                span Политики конфиденциальности
+                    .trust-3
+                        h4 Уже есть профиль? 
+                            span Войти в аккаунт
