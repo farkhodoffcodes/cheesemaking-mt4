@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="../../css/main.css")
+        title Document
+    body 
+        //- Header include
+        include ../components/header.pug
+        //- Header include
+        .container-create-acnt
+            .right
+                .inputdev 
+                    label(for="hek") Электронная почта
+                    input( id="hek" type="text" placeholder="yourname@mail.com")
+                .inputdev 
+                    label(for="hek2") Ваш пароль
+                    input( id="hek2" type="text" placeholder="От 8 и более символов")
+                button.createbtn Создать аккаунт
+
+                .right-footer
+                    .trust  
+                        img(src="/assets/img/ImgForAsliddin/create-acc/Line 19.png" alt="")
+                        h3 или
+                        img(src="/assets/img/ImgForAsliddin/create-acc/Line 19.png" alt="")
+                    img.groupimg(src="/assets/img/ImgForAsliddin/create-acc/Group 324.png" alt="")
+                    
+                    .trust-3
+                        h4 
+                            span Забыли пароль?
+            .right2     
+                .right2_content
+                    h2 Создайте аккаунт
+                    p Делайте покупки быстро и удобно, отслеживайте статус заказа и<br> получайте скидки.
+                    button Зарегистрироваться
